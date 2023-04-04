@@ -102,7 +102,7 @@
 
 <p>输出如下，即此次需要重新生成 <code>hexo-使用指南</code> 这个页面和主页面，因为我修改了 <code>hexo-使用指南.md</code>，且主页面需要更新 <code>hexo-使用指南</code> 部分用于预览的内容</p>
 <h2 id="遗留问题"><a href="#遗留问题" class="headerlink" title="遗留问题"></a>遗留问题</h2><ul>
-<li><input disabled="" type="checkbox"> 点击 <code>Home</code> 的时候会导向根目录 <a href="https://apollo600.github,io,/">https://apollo600.github,io，</a> 应修改为 <code>/blog</code></li>
+<li><input disabled="" type="checkbox"> 点击 <code>Home</code> 的时候会导向根目录 <a href="https://apollo600.github.io,/">https://apollo600.github.io，</a> 应修改为 <code>/blog</code></li>
 </ul>
 ]]></content>
       <categories>
