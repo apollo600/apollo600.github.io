@@ -21,6 +21,11 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Ubuntu-22.04 服务器配置过程</title>
+    <url>/2023/04/04/ubuntu-22-04-%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>hexo 使用指南</title>
     <url>/2023/04/03/hexo-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<span id="more"></span>
@@ -99,10 +104,5 @@
         <tag>hexo</tag>
         <tag>配置</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Ubuntu-22.04 服务器配置过程</title>
-    <url>/2023/04/04/ubuntu-22-04-%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
