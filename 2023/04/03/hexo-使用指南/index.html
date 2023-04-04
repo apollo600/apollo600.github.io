@@ -6,15 +6,15 @@
   
   <title>hexo 使用指南 | Sekiro&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="配置了 hexo 的环境并部署到 github pages">
+  <meta name="description" content="配置了 hexo 的环境并部署到 github pages 修改主页为 https:&#x2F;&#x2F;apollo600.github.io&#x2F;blog 而不是根目录 写作并部署了第一篇文章">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo 使用指南">
 <meta property="og:url" content="https://apollo600.github.io/2023/04/03/hexo-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">
 <meta property="og:site_name" content="Sekiro&#39;s blog">
-<meta property="og:description" content="配置了 hexo 的环境并部署到 github pages">
+<meta property="og:description" content="配置了 hexo 的环境并部署到 github pages 修改主页为 https:&#x2F;&#x2F;apollo600.github.io&#x2F;blog 而不是根目录 写作并部署了第一篇文章">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-03T14:29:22.000Z">
-<meta property="article:modified_time" content="2023-04-04T17:37:31.219Z">
+<meta property="article:modified_time" content="2023-04-04T17:46:20.083Z">
 <meta property="article:author" content="Xiangyu Meng">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="配置">
@@ -103,7 +103,12 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <span id="more"></span>
+        <ul>
+<li>配置了 hexo 的环境并部署到 github pages</li>
+<li>修改主页为 <a href="https://apollo600.github.io/blog">https://apollo600.github.io/blog</a> 而不是根目录</li>
+<li>写作并部署了第一篇文章</li>
+</ul>
+<span id="more"></span>
 
 <h2 id="What’s-Hexo"><a href="#What’s-Hexo" class="headerlink" title="What’s Hexo"></a>What’s Hexo</h2><p>可以参考这里 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
 <h2 id="本地环境配置"><a href="#本地环境配置" class="headerlink" title="本地环境配置"></a>本地环境配置</h2><p>安装 nodejs 和 npm，直接使用 <code>apt</code> 进行安装</p>
@@ -171,6 +176,9 @@
 <figure class="highlight sh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">INFO  Validating config</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Files loaded <span class="keyword">in</span> 114 ms</span><br><span class="line">INFO  Generated: 2023/04/03/hexo-使用指南/index.html</span><br><span class="line">INFO  Generated: blog/index.html</span><br><span class="line">INFO  2 files generated <span class="keyword">in</span> 35 ms</span><br></pre></td></tr></tbody></table></figure>
 
 <p>输出如下，即此次需要重新生成 <code>hexo-使用指南</code> 这个页面和主页面，因为我修改了 <code>hexo-使用指南.md</code>，且主页面需要更新 <code>hexo-使用指南</code> 部分用于预览的内容</p>
+<h2 id="遗留问题"><a href="#遗留问题" class="headerlink" title="遗留问题"></a>遗留问题</h2><ul>
+<li><input disabled="" type="checkbox"> 点击 <code>Home</code> 的时候会导向根目录 <a target="_blank" rel="noopener" href="https://apollo600.github,io,应修改为/">https://apollo600.github,io，应修改为</a> <code>/blog</code></li>
+</ul>
 
       
     </div>
